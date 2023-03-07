@@ -5,6 +5,7 @@ function getComputerChoice() {
 }
 
 function getPlayerChoice() {
-  const playerChoice = prompt("Rock, paper, or scissors? ");
-  return playerChoice;
+  let playerChoice = prompt("Rock, paper, or scissors? ");
+  return playerChoice.toLowerCase();
 }
+
